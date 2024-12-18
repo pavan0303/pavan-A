@@ -1,0 +1,47 @@
+30/05/2024
+             > Tokens >> Essential elements for writing a python program.
+                   1.Keywords 
+                   2.Variables
+                   3.Identifiers
+                   4.Data types
+          1.Keywords
+                     ---- Pre-defined, Reserved words, built in words. 
+                          performing specific task.
+                          35 keywords in python
+                          True,None,False are in Title cases remaining all in lower cases.
+                          we can not change the functionality of keywords.
+                          import keyword--- performs the importing process.
+                          importing is the process of accessing the content of one module into current module.
+        
+
+
+          2.Variables:
+                       ---- It is a name given to the memory allocation.
+                            value stored in a variable might be varied.
+                            syntax for declaring a single variable
+                               ---- "variablename=value"
+                            If we assign multiple variables with same integer value then we will go to the same memory address.
+                            If we assign new value for a existing value then it will point to new memory address.
+                            Once we create variable two spaces are created (name/variable space, value space)
+                       Garbage collection:
+                                         --- It is used for deleting memory of un-used values.
+                                             Drawbacks of garbage collection when it is done by the developers
+                                             1. Deleting the memory before completion of its usage.
+                                             2. Not deleting the memory even after completion of its usage.
+                      Python Memory Management:   
+                                              ----IN python Garbage collection will be done by the pmm.
+                                              python memory management will be delete the value when it has zero references.
+                          Id function:
+                                           -----used for getting the address of variable
+                              syntax ;
+                                            id(variable name)
+            
+                     Syntax for defining multiple variables at a time in python
+                                      ---- variable Name1,variable Name2,Variable Name3,.......= Value1,value2,value3,......
+                     Syntax for creating new variables with existing variable values
+                                     ----- " New variable = Existing value"
+                     Syntax for swapping the values of variables
+                                     ----- "var1,var2 =var2,var1"
+       3.Identifiers:
+                     ------ Identifiers is a name with which we can identify the variables,functions and classes.
+         
